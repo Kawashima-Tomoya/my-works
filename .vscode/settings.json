@@ -1,0 +1,21 @@
+{
+	// Biome
+	"editor.defaultFormatter": "biomejs.biome",
+	"[typescriptreact]": { "editor.defaultFormatter": "biomejs.biome" },
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"quickfix.biome": "explicit",
+		"source.organizeImports.biome": "explicit"
+	},
+	"biome.experimental.rename": true,
+	"prettier.enable": false,
+
+	// Tailwind CSS
+	"editor.quickSuggestions": { "strings": true },
+
+	// TypeScript
+	"typescript.tsdk": "./node_modules/typescript/lib",
+
+	// cSpell
+	"cSpell.words": ["biomejs"]
+}
