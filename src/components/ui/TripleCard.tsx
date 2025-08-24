@@ -14,7 +14,7 @@ type TripleCardProps = {
 
 export function TripleCard(props: TripleCardProps): ReactElement {
 	return (
-		<div className="isolate flex justify-center">
+		<div className="group isolate flex justify-center">
 			{props.cards.map((card, index) =>
 				index === 0 ? (
 					<button type="button" key={card.position}>
